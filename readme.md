@@ -11,3 +11,17 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 ## First setup
 
 **[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+
+## Steps required
+
+1) Open the local repository and clone it in your local machine
+2) Add any missing file in the repository in the following steps
+    1) Create a new branch
+    2) Add the file to the root repository(the main folder having all sub-folders)
+    3) Commit the change
+    4) Push it
+3) Create a pull request and thus merge your branch with main 
+4) Install Docker from here: https://docs.docker.com/get-docker/
+5) Verify the docker is ready for running by running commands `docker -v` and `docker-compose -v` in terminal
+6) Test this by pointing your browser to http://localhost:3000/api/ping
+7) To check the frontend you’ll be able to create a new user on http://localhost:3001/register
